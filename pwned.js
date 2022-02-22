@@ -1247,7 +1247,7 @@
                           }
                       })
                   } else {
-                    var r = [`<p>The password you entered has not been exposed in any data breaches in our search.</p>
+                    var r = `<p>The password you entered has not been exposed in any data breaches in our search.</p>
                                 <p style="font-weight: bold">Pro-Tips from Net Friends on Password Best Practices:</p>
                                 <ul>
                                     <li>Always use a unique password for each account. Avoid the repeated use of a password.</li>
