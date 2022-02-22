@@ -2172,7 +2172,7 @@
     (i.defaultOptions.className = "vex-theme-wireframe"),
       (i.defaultOptions.escapeButtonCloses = !1),
       (i.defaultOptions.overlayClosesOnClick = !1),
-      (i.dialog.buttons.YES.text = "I Understand");
+      (i.dialog.buttons.YES.text = "Check Another Password");
     var r = "https://haveibeenpwned.com/api/v2/breachedaccount/",
       a = "https://api.pwnedpasswords.com/range/";
     function s(e, t = 0, n = ",", o = ".") {
