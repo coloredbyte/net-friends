@@ -1256,7 +1256,7 @@
                                     <li>The best passwords are 16 characters or more.</li>
                                     <li>Enable multi-factor authentication to protect your accounts.</li>
                                     <li>Consider changing your passwords every three months.</li>
-                                </ul>`;
+                                </ul>`
                     i.dialog.alert({
                         message: "Phew! Good news: your password is safe!",
                         input: r,
