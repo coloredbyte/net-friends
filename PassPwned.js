@@ -2280,10 +2280,10 @@
               });
             }
           }
-        } else {
+          return
+        } 
             var r = [
                 "<p>The password you entered has not been exposed in any data breaches in our search.</p>",
-                "<p style='font-weight: bold'>Pro-Tips from Net Friends on Password Best Practices:</p>",
                 "<p style='font-weight: bold'>Pro-Tips from Net Friends on Password Best Practices:</p>",
                 "<ul><li>Always use a unique password for each account. Avoid the repeated use of a password.</li><li>Avoid choosing passwords that are easy to recall or guess.</li><li>Use strong passwords or passphrase that are complex by including uppercase and lowercase letters, numbers, and symbols.</li><li>The best passwords are 16 characters or more.</li><li>Enable multi-factor authentication to protect your accounts.</li><li>Consider changing your passwords every three months.</li></ul>"
             ].join("");
@@ -2294,7 +2294,7 @@
                 sessionStorage.setItem(p(t), "false");
             },
             });
-        }
+        
       }),
         l(p(t)) || (u.open("GET", a + r, !0), u.send(null));
     }
